@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+h1 { 
+    color: #bba31c;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+}
+h2 {
+    color:rgba(204, 43, 43, 0.63);
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+}
+p {
+    color:#000000;
+    font-family: "Cormorant Garamond", serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+background-color: rgba(187, 96, 35, 0.459);
+}

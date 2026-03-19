@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+img {width: 500;
+}
+h1 { 
+    color: #bd1338;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+}
+h2 {
+    color:blue;
+}
+p {
+    color:#000000;
+}
+a {
+    text-decoration: none;
+}
