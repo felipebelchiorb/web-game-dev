@@ -21,3 +21,8 @@ a {
 body {
 background-color: rgba(187, 96, 35, 0.459);
 }
+p {
+text-align: center;
+width:700px;
+margin: 0 auto;
+}
