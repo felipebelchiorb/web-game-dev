@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    background-color: #fddde6; 
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #c2251f; 
+    border: 2px solid #f37019;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Header */
+.header {
+    background-color: #fb8b23;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.hero {
+    border: 2px solid #880808;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.botao-play {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.conteudo-principal {
+    display: flex;
+    gap: 15px;
+}
+
+.informacoes {
+    flex: 1;
+    background-color: #f37019;
+    border: 2px solid #880808;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.informacoes h3 {
+    color: #d3d3d3;
+    margin-top: 0;
+}
+
+.estrutura-fotos {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.foto {
+    background-color: #895129;
+    border: 2px solid #880808;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.atras-foto {
+    background-color: #3f5f1c;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d3d3d3;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #e53b3b;
+    border: 2px solid #880808;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.instagram {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+img {
+    width: 200px;
+}
