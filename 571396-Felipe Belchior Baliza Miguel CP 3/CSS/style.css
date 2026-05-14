@@ -1,0 +1,156 @@
+:root {
+    --main-blue: #76B900;
+    --bg-site: #f4f4f4;
+    --white: #ffffff;
+    --text-gray: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-site); 
+}
+
+header {
+    background-color: var(--main-blue);
+    color: white;
+    padding: 15px 5%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main {
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.hero-container {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 10px;
+    position: relative; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hero-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.hero-container p {
+    color: var(--text-gray);
+}
+
+.promo-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section-cursos h3, .section-form h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.tabela-gamer {
+    width: 100%; 
+    background-color: var(--white);
+    border-collapse: collapse;
+}
+
+.tabela-gamer th, .tabela-gamer td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left; 
+}
+
+.card-form {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    width: 350px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-group label {
+    width: 60px;
+    font-size: 14px;
+}
+
+.input-group input, .input-group select {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.btn-enviar {
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.btn-enviar:hover {
+    transform: translateY(-3px); 
+}
+
+footer {
+    background-color: var(--main-blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
